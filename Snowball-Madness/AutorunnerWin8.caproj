@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>AutorunnerWin8</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>mq4njje893h0</unique-id>
+    <saved-with-version>24100</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows Store</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>630</width>
+        <height>360</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Layout 1</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">Off</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">iPhone only</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="0">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="1">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Block" sid="2">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="4">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Player" sid="5">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="6">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.512821" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="8">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Keyboard" sid="9">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="DistanceDisplay" sid="10">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Windows8" sid="11">
+            <plugin id="win8" />
+        </object-type>
+        <object-type name="PauseText" sid="12">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite" sid="966768645393644">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="786943176561575" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500242" original-source="C:\Users\ap134\Dropbox\Newest capx games!!!\snowballmadnessgeodashgame!!!\snowballmadness!!!3333.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="490758920454698">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="319781959873692">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\ap134\Dropbox\Newest capx games!!!\snowballmadnessgeodashgame!!!\snowballmaddnessbackground!!!.png" />
+        </object-type>
+        <object-type name="Block2" sid="928898380994648">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="126263346606097">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="976287109795874">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Block3" sid="497350674467789">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="223416417432142">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="687374347288972">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Tilemap" sid="822488667714731">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\ap134\Dropbox\Newest capx games!!!\snowballmadnessgeodashgame!!!\snowballmaddnessbackground!!!.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap2" sid="910825064762699">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\ap134\Dropbox\Newest capx games!!!\snowballmadnessgeodashgame!!!\snowballmaddnessbackground!!!.png" />
+            <tiles />
+        </object-type>
+        <object-type name="snowtrail" sid="850491658931841">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="232871494552075">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="996560383783425">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\ap134\Dropbox\Newest capx games!!!\snowballmadnessgeodashgame!!!\snowballmaddnessbackground!!!.png" />
+            <tiles>
+                <tile id="286">
+                    <collision-poly>
+                        <point x="0.398438" y="0.8125" />
+                        <point x="1" y="0.585938" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="287">
+                    <collision-poly>
+                        <point x="0" y="0.578125" />
+                        <point x="0.53125" y="0.421875" />
+                        <point x="1" y="0.351563" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="288">
+                    <collision-poly>
+                        <point x="0" y="0.304688" />
+                        <point x="1" y="0.28125" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="289">
+                    <collision-poly>
+                        <point x="0" y="0.289063" />
+                        <point x="1" y="0.296875" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="290">
+                    <collision-poly>
+                        <point x="0" y="0.265625" />
+                        <point x="0.3125" y="0.359375" />
+                        <point x="0.609375" y="0.390625" />
+                        <point x="1" y="0.402344" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="291">
+                    <collision-poly>
+                        <point x="0" y="0.445313" />
+                        <point x="1" y="0.59375" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="292">
+                    <collision-poly>
+                        <point x="0" y="0.632813" />
+                        <point x="1" y="0.898438" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="293">
+                    <collision-poly>
+                        <point x="0" y="0.875" />
+                        <point x="0.109375" y="0.984375" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="299">
+                    <collision-poly>
+                        <point x="0.460938" y="0.890625" />
+                        <point x="1" y="0.742188" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="300">
+                    <collision-poly>
+                        <point x="0.0078125" y="0.78125" />
+                        <point x="0.992188" y="0.539063" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="301">
+                    <collision-poly>
+                        <point x="0" y="0.578125" />
+                        <point x="1" y="0.429688" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="302">
+                    <collision-poly>
+                        <point x="0" y="0.492188" />
+                        <point x="0.492188" y="0.460938" />
+                        <point x="1" y="0.597656" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="303">
+                    <collision-poly>
+                        <point x="0" y="0.59375" />
+                        <point x="0.46875" y="0.765625" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="304">
+                    <collision-poly>
+                        <point x="0.0546875" y="0.640625" />
+                        <point x="0.421875" y="0.359375" />
+                        <point x="0.765625" y="0.15625" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="312">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="0.539063" y="0.0859375" />
+                        <point x="0.871094" y="0.214844" />
+                        <point x="1" y="0.25" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="313">
+                    <collision-poly>
+                        <point x="0" y="0.21875" />
+                        <point x="1" y="0.460938" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="314">
+                    <collision-poly>
+                        <point x="0" y="0.445313" />
+                        <point x="0.992188" y="0.585938" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="315">
+                    <collision-poly>
+                        <point x="0" y="0.578125" />
+                        <point x="0.453125" y="0.554688" />
+                        <point x="1" y="0.492188" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="316">
+                    <collision-poly>
+                        <point x="0.0078125" y="0.53125" />
+                        <point x="1" y="0.242188" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="317">
+                    <collision-poly>
+                        <point x="0" y="0.289063" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>TitleScreen.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Layout 1.xml</event-sheet>
+        <event-sheet>Pause.xml</event-sheet>
+        <event-sheet>Titlescreen.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="5">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="6" />
+        <global-instance type="Windows8" uid="7">
+            <properties>
+                <test-mode>No</test-mode>
+                <about-setting>No</about-setting>
+                <support-setting>No</support-setting>
+                <privacy-setting>No</privacy-setting>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
