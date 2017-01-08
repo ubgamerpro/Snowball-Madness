@@ -138,195 +138,21 @@
         </object-type>
         <object-type name="Tilemap" sid="822488667714731">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\ap134\Dropbox\Newest capx games!!!\snowballmadnessgeodashgame!!!\snowballmaddnessbackground!!!.png" />
+            <behaviors>
+                <behavior-type name="Solid" sid="278559663072370">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="135865773151980">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Mitchell\Documents\GitHub\Snowball-Madness\Snowball-Madness\Textures\Block.png" />
             <tiles />
         </object-type>
         <object-type name="Tilemap2" sid="910825064762699">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\ap134\Dropbox\Newest capx games!!!\snowballmadnessgeodashgame!!!\snowballmaddnessbackground!!!.png" />
             <tiles />
-        </object-type>
-        <object-type name="snowtrail" sid="850491658931841">
-            <plugin id="Tilemap" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="232871494552075">
-                    <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="996560383783425">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="C:\Users\ap134\Dropbox\Newest capx games!!!\snowballmadnessgeodashgame!!!\snowballmaddnessbackground!!!.png" />
-            <tiles>
-                <tile id="286">
-                    <collision-poly>
-                        <point x="0.398438" y="0.8125" />
-                        <point x="1" y="0.585938" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="287">
-                    <collision-poly>
-                        <point x="0" y="0.578125" />
-                        <point x="0.53125" y="0.421875" />
-                        <point x="1" y="0.351563" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="288">
-                    <collision-poly>
-                        <point x="0" y="0.304688" />
-                        <point x="1" y="0.28125" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="289">
-                    <collision-poly>
-                        <point x="0" y="0.289063" />
-                        <point x="1" y="0.296875" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="290">
-                    <collision-poly>
-                        <point x="0" y="0.265625" />
-                        <point x="0.3125" y="0.359375" />
-                        <point x="0.609375" y="0.390625" />
-                        <point x="1" y="0.402344" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="291">
-                    <collision-poly>
-                        <point x="0" y="0.445313" />
-                        <point x="1" y="0.59375" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="292">
-                    <collision-poly>
-                        <point x="0" y="0.632813" />
-                        <point x="1" y="0.898438" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="293">
-                    <collision-poly>
-                        <point x="0" y="0.875" />
-                        <point x="0.109375" y="0.984375" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="299">
-                    <collision-poly>
-                        <point x="0.460938" y="0.890625" />
-                        <point x="1" y="0.742188" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="300">
-                    <collision-poly>
-                        <point x="0.0078125" y="0.78125" />
-                        <point x="0.992188" y="0.539063" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="301">
-                    <collision-poly>
-                        <point x="0" y="0.578125" />
-                        <point x="1" y="0.429688" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="302">
-                    <collision-poly>
-                        <point x="0" y="0.492188" />
-                        <point x="0.492188" y="0.460938" />
-                        <point x="1" y="0.597656" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="303">
-                    <collision-poly>
-                        <point x="0" y="0.59375" />
-                        <point x="0.46875" y="0.765625" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="304">
-                    <collision-poly>
-                        <point x="0.0546875" y="0.640625" />
-                        <point x="0.421875" y="0.359375" />
-                        <point x="0.765625" y="0.15625" />
-                        <point x="1" y="0" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="312">
-                    <collision-poly>
-                        <point x="0" y="0" />
-                        <point x="0.539063" y="0.0859375" />
-                        <point x="0.871094" y="0.214844" />
-                        <point x="1" y="0.25" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="313">
-                    <collision-poly>
-                        <point x="0" y="0.21875" />
-                        <point x="1" y="0.460938" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="314">
-                    <collision-poly>
-                        <point x="0" y="0.445313" />
-                        <point x="0.992188" y="0.585938" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="315">
-                    <collision-poly>
-                        <point x="0" y="0.578125" />
-                        <point x="0.453125" y="0.554688" />
-                        <point x="1" y="0.492188" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="316">
-                    <collision-poly>
-                        <point x="0.0078125" y="0.53125" />
-                        <point x="1" y="0.242188" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="317">
-                    <collision-poly>
-                        <point x="0" y="0.289063" />
-                        <point x="1" y="0" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-            </tiles>
         </object-type>
     </object-folder>
     <families />

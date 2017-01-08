@@ -15,7 +15,7 @@
                 <action behavior="Bullet" id="3" name="Set angle of motion" sid="23" type="TiledBackground2">
                     <param id="0" name="Angle">180</param>
                 </action>
-                <action behavior="Bullet" id="3" name="Set angle of motion" sid="24" type="snowtrail">
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="875968487687672" type="Tilemap">
                     <param id="0" name="Angle">180</param>
                 </action>
             </actions>
@@ -74,48 +74,9 @@
                 <action id="0" name="Set text" sid="39" type="DistanceDisplay">
                     <param id="0" name="Text">round(TotalDistance)</param>
                 </action>
-                <action behavior="Solid" id="0" name="Set enabled" sid="701457363196105" type="snowtrail">
-                    <param id="0" name="State">1</param>
-                </action>
             </actions>
         </event-block>
         <comment>Once CurrentDistance reaches NextBlock, it is time to create a new block.  Create it with a random width and height, then position it just off the right edge of the screen.  Make it move to the left again, then set NextBlock to create another block a random distance after this one.</comment>
-        <event-block sid="40">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="41" type="System">
-                    <param id="0" name="Variable">CurrentDistance</param>
-                    <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">NextBlock</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-11" name="Subtract from" sid="42" type="System">
-                    <param id="0" name="Variable">CurrentDistance</param>
-                    <param id="1" name="Value">NextBlock</param>
-                </action>
-                <action id="-3" name="Create object" sid="43" type="System">
-                    <param id="0" name="Object to create">Block</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="X">0</param>
-                    <param id="3" name="Y">0</param>
-                </action>
-                <action id="-7" name="Set size" sid="44" type="Block">
-                    <param id="0" name="Width">100 + random(400)</param>
-                    <param id="1" name="Height">60 + random(180)</param>
-                </action>
-                <action id="-3" name="Set position" sid="45" type="Block">
-                    <param id="0" name="X">LayoutWidth</param>
-                    <param id="1" name="Y">LayoutHeight - Self.Height</param>
-                </action>
-                <action behavior="Bullet" id="3" name="Set angle of motion" sid="46" type="Block">
-                    <param id="0" name="Angle">180</param>
-                </action>
-                <action id="-9" name="Set value" sid="47" type="System">
-                    <param id="0" name="Variable">NextBlock</param>
-                    <param id="1" name="Value">Block.Width + 20 + random(200)</param>
-                </action>
-            </actions>
-        </event-block>
         <comment>Destroy blocks that go off the left of the screen so they don&apos;t keep taking up memory or CPU.</comment>
         <event-block sid="48">
             <conditions>
