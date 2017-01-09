@@ -146,7 +146,7 @@
                     <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Mitchell\Documents\GitHub\Snowball-Madness\Snowball-Madness\Textures\Block.png" />
+            <texture original-source="C:\Mitchell\Desktop\Platform.png" />
             <tiles />
         </object-type>
         <object-type name="Tilemap2" sid="910825064762699">
